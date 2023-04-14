@@ -1,7 +1,7 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 import cryptocompare
-API_TOKEN = '5480591291:AAHTGkyT6sd9GlNqmfr8jB9yo1oNocRqd_c'
+API_TOKEN = ""
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 @dp.message_handler(commands=['start', 'help'])
